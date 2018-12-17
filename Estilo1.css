@@ -1,0 +1,90 @@
+body {
+	background-color:black;
+	text-align: center;
+}
+h1 {
+	color:#633974;
+}
+h2 {
+	color:#C39BD3;
+}
+h3 {
+	color:#C39BD3;
+	text-align: justify;
+	padding:15px;
+}
+h4 {
+	color:#2980B9;
+}
+p {
+	color:white;
+}
+/*Cabecera*/
+.page {
+    margin:0px auto;
+    width:800px;
+}
+
+.header{
+  top:0;
+  width:800px;
+  height:130px;
+  background-color:white;
+  color:#8E44AD;
+  padding-top:20px;
+  font-size:35px;
+  text-align:center;
+}
+
+/*Menu*/
+.menu{
+overflow: hidden;
+width:100%;
+background-color:#5B2C6F;
+font-size:18px;
+margin-top:0px;
+font-family: arial;
+}
+.menu a{
+float: left;
+display: block;
+color: black;
+text-align: center;
+padding: 20px 60px;
+text-decoration: none;
+}
+.menu a:hover {
+background-color:#2980B9;
+color:white;
+}
+/*Foto*/
+.fotoderecha{
+padding:10px;
+width:20%;
+float:right;
+text-align: justify;
+}
+.fotoizquierda{
+padding:10px;
+width:20%;
+float:left;
+text-align: justify;
+}
+/*Texto*/
+.textoizquierda{
+padding:10px;
+width:70%;
+float:left;
+text-align: justify;
+}
+.textoderecha{
+padding:10px;
+width:70%;
+float:right;
+text-align: justify;
+}
+/*Parrafo*/
+.bloque{
+float:left;
+margin-bottom:10px;
+}
